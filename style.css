@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: Roboto,Arial, Helvetica, sans-serif;
 }
-/*Sixtyfour */ 
 .header-cantainer{
     transition: .2s;
     padding: 6px 56px;
@@ -20,37 +19,30 @@
     background-color: white;
     box-shadow: 0 4px 2px #d0d4e0;
 }
-
 .header-logo{
     height: 44px;
     width: auto;
 }
-
 .hamburger{
     display: none;
 }
-
 .hamburger:hover{
     cursor: pointer;
 }
-
 .hamburger > div{
     height: 3px;
     width: 27px;
     margin: 6px;
     background-color: #1a2238;
 }
-
 .nav-bar>a{
     color: black;
     margin: 3px 12px;
     transition: .3s;
 }
-
 .nav-bar>a:hover{
     color: #464e61;
 }
-
 .landing-cantainer{
     padding: 5% 10%;
     display: flex;
@@ -60,22 +52,17 @@
     background-color: #d0d4e0;
     transition: .2s;
 }
-
 .landing-cantainer div{
     flex: 1;
 }
-
 .landing-cantainer .image-section img{
     max-height: 200px;
     max-width: 200px;
     border-radius: 100%;
-    
 }
-
 .image-section .border-2{
     width: fit-content;
     height: fit-content;
-    
     border-radius: 100%;
     border: 18px solid white;
 }
@@ -84,18 +71,15 @@
     border-radius: 100%;
     border: 16px solid #1a2238;
 }
-
 .image-section .border-3{
     width: fit-content;
     border-radius: 100%;
     border: 24px solid #1a2238;
 }
-
  .landing-cantainer .intro-section {
     text-align: center;
     min-width: 320px;
 }
-
 .landing-cantainer .intro-section p{
    margin-bottom: 24px;
 }
@@ -103,7 +87,6 @@
     padding-left: 6px;
     font-family: Sixtyfour,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
 }
-
 .intro-section .Contact-btn{
     color: white;
     background-color: #1a2238;
@@ -115,19 +98,16 @@
     color: white;
     background-color: #1a2238dd;     
 }
-
 .title{
     margin: 104px auto 32px;
     text-align: center;
     color: #1a2238;
 }
-
 .t2{
     background-color: #d0d4e0;
     margin: 0px auto 0;
     padding-top: 54px;
 }
-
 .goals-cantainer{
     padding: 24px 8%;
     margin-bottom: 62px;
@@ -135,7 +115,6 @@
 .goals-cantainer ul{
     margin: 14px 54px;
 }
-
 .projects-cantainer{
     padding: 5%;
     background-color: #d0d4e0;
@@ -144,7 +123,6 @@
     align-items: center;
     justify-content: space-around;
 }
-
 .projects-cantainer > div{
     background-color: white;
     border-radius: 12px;
@@ -164,21 +142,16 @@
     color: black;
     transition: .2s;
 }
-
 .project-link:hover{
     color: #1a2238de;
 }
-
 .project-description{
     padding: 0px 24px;
     font-size: 12px;
 }
-
 .js-cantainer>div{
     display: none;
 }
-
-
 .contact-cantainer {
     padding: 34px;
     margin: 94px auto;
@@ -187,27 +160,22 @@
     background-color: #1a2238;
     border-radius: 8px;
 }
-
 .contact-title{
     margin-top: 0;
     margin-bottom: 40px;
     color: #d0d4e0;
-
 }
-
 .contact-link{
     margin: 12px;
     display: flex;
     align-items: center;
 }
-
 .contact-link>a{
     color: #d0d4e0;
     transition: .2s;
     padding: 8px 16px;
     
 }
-
 .contact-link>a:hover{
     color: #ffffff;
 }
@@ -225,31 +193,23 @@
     margin: 12px;
     transition: .2s;
 }
-
 .footer-cantainer a:hover{
     color: #d0d4e0;
 }
-
 @media screen and (max-width: 788px) and (min-width:581px) {
-    /**/  
-
-    
     .landing-cantainer .image-section img{
         max-height: 160px;
         max-width: 160px;
     }
-    
     .image-section .border-2{
         border: 14px solid white;
     }
     .image-section .border-1{
         border: 12px solid #1a2238;
     }
-    
     .image-section .border-3{
         border: 18px solid #1a2238;
     }
-    
      .landing-cantainer .intro-section {
         min-width: 160px;
         margin-left: 24px;
@@ -261,10 +221,8 @@
     }
     .product-img{
         max-width: 280px;
-    }
-    
+    } 
 }
-
 @media screen and (max-width: 580px){
     .landing-cantainer{
         padding: 38px;
@@ -276,28 +234,22 @@
     .intro-section{
         margin: 24px auto 60px;
     }
-    
-
     .landing-cantainer .image-section img{
         max-height: 120px;
         max-width: 120px;
     }
-    
     .image-section .border-2{
         border: 12px solid white;
     }
     .image-section .border-1{
         border: 10px solid #1a2238;
     }
-    
     .image-section .border-3{
         border: 16px solid #1a2238;
     }
-    
      .landing-cantainer .intro-section {
         min-width: 160px;
     }
-
     .intro-section .Contact-btn{
         padding: 8px 18px;
     }
@@ -319,8 +271,7 @@
         overflow: hidden;
         border-radius: 12px;
         transition: .3s;
-        box-shadow: 0 4px 2px #d0d4e0;
-        
+        box-shadow: 0 4px 2px #d0d4e0;   
     }
     .nav-bar>a{
         display: block;
@@ -328,10 +279,8 @@
         margin: 18px auto;
     }
     #hamburger-checkbox:checked ~ .nav-bar{
-        height: 200px;
-        
+        height: 200px; 
     }
-
 }
 
 @media screen and (max-width: 380px){
